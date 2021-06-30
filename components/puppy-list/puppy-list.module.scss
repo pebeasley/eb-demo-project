@@ -1,0 +1,24 @@
+@import "../../styles//colors";
+
+.puppy_list {
+  background: $primary-color;
+  color: $tertiary-light;
+  padding: 0.4rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 2px $tertiary-dark;
+}
+.puppy_list__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  button {
+    padding: 0.4rem 1rem;
+    background: $primary-color;
+    color: $white;
+    border-radius: 0.25rem;
+    font-size: 2rem;
+    border-width: 0;
+    cursor: pointer;
+  }
+}

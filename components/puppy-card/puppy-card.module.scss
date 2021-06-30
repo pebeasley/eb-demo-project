@@ -1,0 +1,61 @@
+@import "../../styles/colors";
+
+.puppy_card {
+  background: $primary-color;
+  color: $tertiary-dark;
+  padding: 0.4rem;
+  border: 1px solid $tertiary-dark;
+  border-radius: 0.25rem;
+  margin: 0.8rem auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 1px $tertiary-dark;
+}
+.puppy_card__image {
+  width: 400px;
+  height: 100%;
+  margin: 0 1rem 0 0;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+.puppy_card__header {
+  padding: 0 2rem 0.2rem 2rem;
+  width: 100%;
+  border-bottom: 1px solid $primary-color;
+  h3 {
+    font-style: italic;
+  }
+}
+.puppy_card__bio_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: $white;
+  border-radius: 0.25rem;
+}
+.puppy_card__description {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+.puppy_card__bio_footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+
+  button {
+    background: $primary-color;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+}

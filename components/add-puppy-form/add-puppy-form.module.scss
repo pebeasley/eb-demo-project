@@ -1,0 +1,38 @@
+@import "../../styles/colors";
+
+.new_puppy_form {
+  background: $primary-color;
+  padding: 2rem 4rem;
+  border-radius: 0.25rem;
+  color: $white;
+  margin: 0 auto;
+
+  h3 {
+    color: $white;
+    padding: 1rem 0;
+  }
+
+  label {
+    display: block;
+    padding: 0.4rem 0;
+  }
+
+  input {
+    border-radius: 4rem;
+    border: 1px solid $secondary-color;
+    display: block;
+    padding: 0.4rem;
+    width: 40%;
+  }
+
+  button {
+    padding: 0.4rem 1rem;
+    background: $tertiary-dark;
+    color: $white;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    border-width: 0;
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+}
