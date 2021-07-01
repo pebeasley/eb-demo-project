@@ -24,19 +24,6 @@ const routeHandler = async (req, res) => {
       }
       break;
     case "PUT":
-      // try {
-      // let { id } = req.query;
-      //   console.log(id);
-      //   const updatedPuppy = await Puppy.findOneAndUpdate(id, req.body, {
-      //     new: true,
-      //     runValidators: true,
-      //   });
-      //   if (updatedPuppy) {
-      //     return res.status(200).json(updatedPuppy);
-      //   }
-      // } catch (error) {
-      //   res.status(400).json({ error: error });
-      // }
       try {
         let { id } = req.query;
         const updatedPuppy = await Puppy.findByIdAndUpdate(id, req.body, {
